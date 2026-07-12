@@ -1,0 +1,17 @@
+api:
+  base_url: "http://127.0.0.1:5001"
+  stores: [1, 2, 3, 4, 5] # Expanded to include synthetic stores
+  format: "json"   # "json" or "csv"
+  chaos: false
+
+database:
+  host: "127.0.0.1"
+  port: 5432
+  dbname: "retail"
+  user: "Arnav"
+  password: "Arnav"
+
+etl:
+  source_date: "ALL"
+  default_currency: "NPR"
+  strict_validation: false
