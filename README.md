@@ -13,6 +13,7 @@ A small retail company receives daily sales data from multiple stores. Previousl
 - Delays in reporting
 - Lack of automation
 
+
 The company needed a reliable, automated ETL pipeline to:
 - Collect store sales data daily
 - Clean and validate the data
